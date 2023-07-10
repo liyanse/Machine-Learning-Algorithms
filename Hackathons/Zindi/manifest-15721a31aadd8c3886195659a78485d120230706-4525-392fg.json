@@ -1,0 +1,40 @@
+{
+  "description": "This is a system generated manifest of files expected to be present in this zip. It can be safely deleted.",
+  "metadata": {
+    "generated_at": "2023-07-06T13:32:17+00:00",
+    "trigger": {
+      "file_hashid": "unknown",
+      "action": "unknown"
+    }
+  },
+  "manifest": [
+    {
+      "filename": "VariableDefinitions.csv",
+      "filesize": 156,
+      "description": "Full list of variables and their explanations.",
+      "created_at": "2023-07-06 11:57:25 UTC",
+      "updated_at": "2023-07-06 11:57:25 UTC"
+    },
+    {
+      "filename": "Train.csv",
+      "filesize": 10984543,
+      "description": "Train contains the target. This is the dataset that you will use to train your model.",
+      "created_at": "2023-07-06 11:57:25 UTC",
+      "updated_at": "2023-07-06 11:57:25 UTC"
+    },
+    {
+      "filename": "Test.csv",
+      "filesize": 2252694,
+      "description": "Test resembles Train.csv but without the target-related columns. This is the dataset on which you will apply your model to.",
+      "created_at": "2023-07-06 13:30:55 UTC",
+      "updated_at": "2023-07-06 13:31:06 UTC"
+    },
+    {
+      "filename": "SampleSubmission.csv",
+      "filesize": 65743,
+      "description": "This shows the submission format for this competition, with the ‘ID’ column mirroring that of Test.csv and the ‘target’ column containing your predictions. The order of the rows does not matter, but the names of the ID must be correct.",
+      "created_at": "2023-07-06 13:31:48 UTC",
+      "updated_at": "2023-07-06 13:31:55 UTC"
+    }
+  ]
+}
